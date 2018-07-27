@@ -7,6 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 /*
 https://chartio.com/resources/tutorials/how-to-create-a-user-and-grant-permissions-in-oracle/
+https://stackoverflow.com/questions/33330968/error-ora-65096-invalid-common-user-or-role-name-in-oracle
 
 alter session set "_ORACLE_SCRIPT"=true;
 
