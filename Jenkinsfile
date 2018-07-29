@@ -7,7 +7,6 @@ pipeline {
         stage('setup') {
             steps {
                 sh "env"
-                sh "docker -v"
             }
         }
         stage('Test') {
