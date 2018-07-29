@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './gradlew build'
+                sh './gradlew --full-stacktrace --debug test'
             }
         }
     }
